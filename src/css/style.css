@@ -8,6 +8,17 @@
 .appointment{
     border-radius: 20px;
 }
+.info{
+    background-color: #F1F7FD;
+    position: relative;
+}
+.info-color{
+    background-color: #fff;
+    height: 100px;
+}
+.img-circle{
+    border-radius: 20px;
+}
 
 @media(max-width:575px) {
     .carousel-inner .carousel-item img{
