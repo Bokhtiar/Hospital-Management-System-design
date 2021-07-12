@@ -3,8 +3,24 @@
 }
 .first-nav{
     height: 25px;
+    background-color: #F8F9F9;
 }
 .appointment{
     border-radius: 20px;
-   
 }
+
+@media(max-width:575px) {
+    .carousel-inner .carousel-item img{
+        height: 200px;
+    }
+
+}
+
+@media(max-width:575px) {
+    .first-nav{
+        display: none;
+    }
+
+}
+
+

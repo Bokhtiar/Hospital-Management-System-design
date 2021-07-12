@@ -13,15 +13,14 @@
   </head>
   <body>
     <section class="wrapper">
-      <section class="container">
+      <section class="">
       <!--navbar section start-->
       <section>
         <!--first header navbar start here-->
         <section class="">
-          <nav class=" first-nav navbar navbar-expand-lg navbar-light">
-            <span class="" href="#"><i class="far fa-envelope"></i> test@gmail.com</span>&nbsp;&nbsp;
-            <span class="" href="#"><i class="fas fa-mobile-alt"></i> +880 1638107361</span>
-            <button
+          <nav class=" first-nav  navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <button
               class="navbar-toggler"
               type="button"
               data-toggle="collapse"
@@ -32,6 +31,10 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+            
+            <span class="" href="#"><i class="far fa-envelope"></i> test@gmail.com</span>&nbsp;&nbsp;
+            <span class="" href="#"><i class="fas fa-mobile-alt"></i> +880 1638107361</span>
+            
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
@@ -53,18 +56,17 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#"><i class="fab fa-instagram-square"></i></a>
                 </li>
-                
-                
-                
               </ul>
             </div>
+          </div>
           </nav>
         </section>
         <!--first header navbar end here-->
 
         <!--secound header navbar start here-->
         <section>
-          <nav class="navbar navbar-expand-lg navbar-light">
+          <nav class="navbar container navbar-expand-lg navbar-light">
+            
             <a class="navbar-brand" href="#">fast aid</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -101,6 +103,37 @@
         <!--secound header navbar end here-->
       </section>
       <!--navbar section end-->
+
+      <!--slider start here-->
+        <section>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" height="450px" src="images/slider1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" height="450px" src="images/slider2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" height="450px" src="images/slider3.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </section>
+      <!--slider end here-->
     </section>
   </section>
     <!-- JS FILES -->
