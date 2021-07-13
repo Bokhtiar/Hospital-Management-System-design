@@ -69,3 +69,8 @@ $(document).ready(function(){
     });
     
     });
+
+
+    $(".image").hover(function(){
+        $(".info").show(2000);
+      });
