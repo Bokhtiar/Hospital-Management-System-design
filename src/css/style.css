@@ -585,7 +585,7 @@ header {
 }
 
 .row {
-    width: 95%;
+    
     display: flex;
     padding: 10px;
     justify-content: center
@@ -668,7 +668,7 @@ header {
 
 .contact-us h3,
 p {
-    color: #fff
+    color: black
 }
 
 .address {
